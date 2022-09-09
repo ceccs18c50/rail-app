@@ -1,0 +1,90 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo{
+  width: 80px;
+  height: 80px;
+
+}
+header{
+  background-color: rgb(41, 191, 255);
+}
+
+.heading{
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+ 
+  
+}
+h1{
+  text-align: center;
+  position: absolute;
+  left: 45%;
+  color: white;
+  
+}
+
+
+.content{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.body-heading{
+  line-height: 35px;
+  position: relative;
+  top: 35px;
+}
+.description{
+  font-size: 16px;
+}
+
+
+
+
+
+.station{
+  position: relative;
+  top: 80px;
+  padding-bottom: 50px;
+}
+.station-details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.container{
+  border: none;
+  box-shadow: 2px 2px 5px 3px rgb(200, 200, 200);
+  width: 350px;
+  height: 300px;
+  margin-top: 12px;
+  overflow: auto;
+  padding: 10px 10px;
+
+}
+
+
+.api-data{
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+  padding: 10px 10px;
+}
+
+.api-key{
+  font-size: 14px;
+}
+
+
+
+.data-container:hover{
+  background-color: rgb(88, 200, 252);
+}
+
